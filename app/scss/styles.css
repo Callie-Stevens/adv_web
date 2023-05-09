@@ -1,0 +1,295 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'variables';
+
+body{
+  background-image: linear-gradient(
+#fa6400, #ffffff, #575aff);
+  /* background-color: #fa6400; */
+  /* css example #1 */
+  padding: 25px;
+    /* css example #3 */
+
+}
+main{
+  background-color: #f8f8fb;
+  padding: 2em;
+  border-radius: 25px;
+}
+
+
+p{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+h1 {
+color: $primary;
+color: #fa6400;
+text-align: center;
+}
+
+.par{
+  text-align: center;
+  font-size: 2em;
+}
+
+button {
+  border: none;
+  color: #fa6400;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+
+.img-fluid{
+  width: 750;
+  height:500;
+
+
+}
+.navbar{
+  padding: 1em;
+  margin: 1em;
+  border-radius: 25px;
+}
+
+@keyframes example {
+  from {background-color:  #f8f8fb;}
+  to {background-color: #575aff;}
+}
+
+header{
+  font-weight: bold;
+  /* css example #6 */
+  font-family:sans-serif;
+  /* css example #5 */
+  text-align: center;
+    /* css example #4 */
+  color: white;
+
+  font-size: 70px;
+  /* css example #2 */
+  border-radius: 25px;
+  margin: .5em;
+
+  background-color: #575aff;
+  animation-name: example;
+  animation-duration: 6s;
+
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.create{
+  text-align: center;
+  font-size: 25px;
+  color:white;
+  font-family: sans-serif;
+  background-color: #575aff;
+  border-radius: 25px;
+
+}
+
+
+.paragraph{
+  color: Red;
+}
+
+.clearfix{
+  margin-top: 2em;
+}
+
+.text-muted{
+  background-color: grey;
+}
+.text-primary{
+  background-color: blue;
+}
+.text-success{
+  background-color: green;
+}
+.text-info{
+  background-color: aqua;
+}
+.text-warning{
+  background-color: yellow;
+}
+.text-danger{
+  background-color: red;
+}
+.text-secondary{
+  background-color: #D3D3D3;
+}
+.text-dark{
+  background-color: #5A5A5A;
+}
+.text-body{
+  background-color: black;
+}
+.text-light{
+  background-color: #FFFDD0;
+}
+.text-white{
+  background-color: #FFFDD0;
+}
+
+.h1{
+  font-family: fantasy;
+  color: green;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.table{
+  border: 1px solid;
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  text-align: center;
+}
+tr:hover {background-color: coral;}
+
+.list-group{
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.col{
+  font-style: normal;
+  font-weight: lighter;
+}
+
+.foot{
+  text-decoration: none;
+}
+.foot:hover{
+  background-color: yellow;
+
+
+}
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+/* button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #575aff;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  margin-bottom: 10px;
+} */
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+
+footer{
+  background-color: white;
+  margin-top: 2em;
+  padding: em;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.number {
+  background-color: #fa6400;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+
+}
+
+@media screen and (max-width:1024px){
+  img.responsive {width: 200px;}
+}
+@media screen and (max-width:4304px){
+  img.responsive {width: 100px;}
+}
+
+@media screen and (min-width:1025px){
+  img.responsive{width: 300px;}
+}
+
+img.responsive{height: auto;}
